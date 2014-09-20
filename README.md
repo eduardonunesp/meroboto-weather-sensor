@@ -1,4 +1,4 @@
-meroboto
+meroboto-weather-sensor
 ========
 
-CoffeeScript Basic Robot
+A weather sensor fot meroboto
