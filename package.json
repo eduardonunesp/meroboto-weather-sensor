@@ -1,6 +1,6 @@
 {
   "name": "meroboto-weather-sensor",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Weather sensor for Meroboto",
   "main": "lib/index.js",
   "scripts": {
