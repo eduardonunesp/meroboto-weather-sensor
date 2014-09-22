@@ -1,6 +1,6 @@
 {
   "name": "meroboto-weather-sensor",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Weather sensor for Meroboto",
   "main": "lib/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/eduardonunesp/meroboto-weather-sensor",
   "dependencies": {
-    "meroboto": "^0.1.0",
+    "meroboto": "^0.1.2",
     "weather-js": "^1.0.0"
   }
 }
