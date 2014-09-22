@@ -1,11 +1,15 @@
-meroboto = require '../../meroboto/lib/'
+meroboto = require 'meroboto/lib/'
 weather = require 'weather-js'
 debug = true if process.env.WEATHER_ROBOT_DEBUG is 'true'
 
 module.exports = 
   class Weather extends meroboto.Sensor
-    constructor: (@name, @timeInterval, @city, @degreeType = 'C') ->
-      super @name, @timeInterval
+    constructor: (options) ->
+      {@name, @timeInterval, @city, @degreeType} = options
+      @degreeType ?= 'C'
+      super
+        name : @name
+        timeInterval : @timeInterval
 
     update: ->
       @lock = true
