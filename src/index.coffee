@@ -1,4 +1,4 @@
-meroboto = require 'meroboto/lib/'
+meroboto = require 'meroboto'
 weather = require 'weather-js'
 debug = true if process.env.WEATHER_ROBOT_DEBUG is 'true'
 
